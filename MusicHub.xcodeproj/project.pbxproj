@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		200D3FE24BB5FFE6B44B4D70 /* Pods_MusicHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2B19D7F56571319E41AC23 /* Pods_MusicHub.framework */; };
 		8219AE6EABBC45C55B18E50B /* Pods_MusicHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB092DC62336328D2C8D2521 /* Pods_MusicHubTests.framework */; };
+		CD82F34C224B60FE00EC5F22 /* MainMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82F34B224B60FE00EC5F22 /* MainMenuRouter.swift */; };
+		CD82F34E224B616B00EC5F22 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82F34D224B616B00EC5F22 /* MainMenuViewController.swift */; };
+		CD82F350224B61A000EC5F22 /* MainMenuAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82F34F224B61A000EC5F22 /* MainMenuAssembly.swift */; };
+		CD82F352224B61B100EC5F22 /* MainMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82F351224B61B100EC5F22 /* MainMenuPresenter.swift */; };
+		CD82F355224B701000EC5F22 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82F354224B701000EC5F22 /* UITextField.swift */; };
 		CDE7BFD5224B571300404C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE7BFD4224B571300404C44 /* AppDelegate.swift */; };
-		CDE7BFD7224B571300404C44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE7BFD6224B571300404C44 /* ViewController.swift */; };
-		CDE7BFDA224B571300404C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE7BFD8224B571300404C44 /* Main.storyboard */; };
 		CDE7BFDC224B571400404C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE7BFDB224B571400404C44 /* Assets.xcassets */; };
 		CDE7BFDF224B571400404C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE7BFDD224B571400404C44 /* LaunchScreen.storyboard */; };
 		CDE7BFEA224B571500404C44 /* MusicHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE7BFE9224B571500404C44 /* MusicHubTests.swift */; };
@@ -33,10 +36,13 @@
 		9E185B105F09874058638DB3 /* Pods-MusicHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicHubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicHubTests/Pods-MusicHubTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB092DC62336328D2C8D2521 /* Pods_MusicHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23A0B470FA792A70DBFD88E /* Pods-MusicHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicHub/Pods-MusicHub.release.xcconfig"; sourceTree = "<group>"; };
+		CD82F34B224B60FE00EC5F22 /* MainMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuRouter.swift; sourceTree = "<group>"; };
+		CD82F34D224B616B00EC5F22 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		CD82F34F224B61A000EC5F22 /* MainMenuAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuAssembly.swift; sourceTree = "<group>"; };
+		CD82F351224B61B100EC5F22 /* MainMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuPresenter.swift; sourceTree = "<group>"; };
+		CD82F354224B701000EC5F22 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		CDE7BFD1224B571300404C44 /* MusicHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE7BFD4224B571300404C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDE7BFD6224B571300404C44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDE7BFD9224B571300404C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDE7BFDB224B571400404C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE7BFDE224B571400404C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDE7BFE0224B571400404C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +92,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CD82F34A224B60CB00EC5F22 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CD82F34D224B616B00EC5F22 /* MainMenuViewController.swift */,
+				CD82F351224B61B100EC5F22 /* MainMenuPresenter.swift */,
+				CD82F34B224B60FE00EC5F22 /* MainMenuRouter.swift */,
+				CD82F34F224B61A000EC5F22 /* MainMenuAssembly.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		CD82F353224B6FF000EC5F22 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD82F354224B701000EC5F22 /* UITextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CDE7BFC8224B571300404C44 = {
 			isa = PBXGroup;
 			children = (
@@ -109,9 +134,9 @@
 		CDE7BFD3224B571300404C44 /* MusicHub */ = {
 			isa = PBXGroup;
 			children = (
+				CD82F353224B6FF000EC5F22 /* Extensions */,
+				CD82F34A224B60CB00EC5F22 /* MainMenu */,
 				CDE7BFD4224B571300404C44 /* AppDelegate.swift */,
-				CDE7BFD6224B571300404C44 /* ViewController.swift */,
-				CDE7BFD8224B571300404C44 /* Main.storyboard */,
 				CDE7BFDB224B571400404C44 /* Assets.xcassets */,
 				CDE7BFDD224B571400404C44 /* LaunchScreen.storyboard */,
 				CDE7BFE0224B571400404C44 /* Info.plist */,
@@ -214,7 +239,6 @@
 			files = (
 				CDE7BFDF224B571400404C44 /* LaunchScreen.storyboard in Resources */,
 				CDE7BFDC224B571400404C44 /* Assets.xcassets in Resources */,
-				CDE7BFDA224B571300404C44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,8 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE7BFD7224B571300404C44 /* ViewController.swift in Sources */,
+				CD82F34E224B616B00EC5F22 /* MainMenuViewController.swift in Sources */,
+				CD82F352224B61B100EC5F22 /* MainMenuPresenter.swift in Sources */,
+				CD82F34C224B60FE00EC5F22 /* MainMenuRouter.swift in Sources */,
 				CDE7BFD5224B571300404C44 /* AppDelegate.swift in Sources */,
+				CD82F350224B61A000EC5F22 /* MainMenuAssembly.swift in Sources */,
+				CD82F355224B701000EC5F22 /* UITextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CDE7BFD8224B571300404C44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDE7BFD9224B571300404C44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CDE7BFDD224B571400404C44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
