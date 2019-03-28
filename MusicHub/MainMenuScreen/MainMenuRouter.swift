@@ -13,6 +13,9 @@ protocol MainMenuRouterInput {
 }
 
 class MainMenuRouter: MainMenuRouterInput {
+
+    weak var viewController: MainMenuViewController!
+    
     func goToMainMenu() {
 
     }

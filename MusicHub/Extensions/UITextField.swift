@@ -21,7 +21,7 @@ class UserInputs: UITextField, UITextFieldDelegate {
         self.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 15, height: self.frame.height))
         self.leftViewMode = .always
         self.clearButtonMode = .whileEditing
-        self.font = self.font?.withSize(20)
+        self.font = self.font?.withSize(24)
     }
 
     override func layoutSubviews() {
